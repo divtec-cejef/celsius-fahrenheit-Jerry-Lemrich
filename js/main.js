@@ -1,8 +1,8 @@
 /**
  * Fichier de base pour application web HTML/CSS/JS
- * @author  Steve Fallet
+ * @author  Jerry Lemrich
  * @version 0.1
- * @since   2019-08-19
+ * @since   2023-08-23
  */
 
 (function main() {
