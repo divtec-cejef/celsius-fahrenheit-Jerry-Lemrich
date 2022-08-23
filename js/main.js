@@ -12,8 +12,12 @@
 
   console.log(a);
 
-  const degreecel = prompt(`Température en celcius :` );
-  alert(`${degreecel}C = ${degreecel *9/5 +32 }F`);
+function convertion(val1){
+  return val1 * 9/5 +32;
+
+}
+  const degreecel = Number( prompt(`Température en celcius :` ) ); // entrez de la valeur
+  alert(`${degreecel}C = ${convertion(degreecel)}F`); //convertion en fahrenheit
 
 }()); // Main IIFE
 
