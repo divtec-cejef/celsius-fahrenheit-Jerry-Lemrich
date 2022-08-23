@@ -11,5 +11,9 @@
   let a = 'Bonjour';
 
   console.log(a);
+
+  const degreecel = prompt(`Température en celcius :` );
+  alert(`${degreecel}C = ${degreecel *9/5 +32 }F`);
+
 }()); // Main IIFE
 
